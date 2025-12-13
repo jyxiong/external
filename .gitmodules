@@ -1,0 +1,21 @@
+[submodule "glm"]
+	path = glm
+	url = git@github.com:g-truc/glm.git
+[submodule "glfw"]
+	path = glfw
+	url = git@github.com:glfw/glfw.git
+[submodule "spdlog"]
+	path = spdlog
+	url = git@github.com:gabime/spdlog.git
+[submodule "stb/stb"]
+	path = stb/stb
+	url = git@github.com:nothings/stb.git
+[submodule "imgui/imgui"]
+	path = imgui/imgui
+	url = git@github.com:ocornut/imgui.git
+[submodule "json"]
+	path = json
+	url = git@github.com:nlohmann/json.git
+[submodule "assimp"]
+	path = assimp
+	url = git@github.com:assimp/assimp.git
