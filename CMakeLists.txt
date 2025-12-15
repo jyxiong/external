@@ -139,3 +139,31 @@ ExternalProject_Add(
         ${COMMON_CMAKE_ARGS}
         -DCMAKE_INSTALL_PREFIX=<INSTALL_DIR>
 )
+
+# ============================================================================
+# tinygltf
+# ============================================================================
+ExternalProject_Add(
+    tinygltf
+    SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/tinygltf
+    INSTALL_DIR ${CMAKE_INSTALL_PREFIX}/tinygltf
+
+    CMAKE_ARGS
+        ${COMMON_CMAKE_ARGS}
+        -DCMAKE_INSTALL_PREFIX=<INSTALL_DIR>
+        -DTINYGLTF_BUILD_LOADER_EXAMPLE=OFF
+        -DTINYGLTF_INSTALL_VENDOR=OFF
+)
+
+# ============================================================================
+# tinyobjloader
+# ============================================================================
+ExternalProject_Add(
+    tinyobjloader
+    SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/tinyobjloader
+    INSTALL_DIR ${CMAKE_INSTALL_PREFIX}/tinyobjloader
+
+    CMAKE_ARGS
+        ${COMMON_CMAKE_ARGS}
+        -DCMAKE_INSTALL_PREFIX=<INSTALL_DIR>
+)
