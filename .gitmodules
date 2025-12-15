@@ -19,3 +19,9 @@
 [submodule "assimp"]
 	path = assimp
 	url = git@github.com:assimp/assimp.git
+[submodule "tinygltf"]
+	path = tinygltf
+	url = git@github.com:syoyo/tinygltf.git
+[submodule "tinyobjloader"]
+	path = tinyobjloader
+	url = git@github.com:tinyobjloader/tinyobjloader.git
